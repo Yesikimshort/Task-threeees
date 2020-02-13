@@ -46,6 +46,18 @@ int main()
     
     Vroom(-800,0,2900);
     vroom(100,100,2000);
+    //Slapper(close on pole);
+    Vroom(500,500,1000);
+    Vroom(-500,-500,2000);
+    //Slapper(close harder until moves);
+    //Slapper(retract thing);
+    
+    Vroom(-800,-800,3000);
+    Vroom(0,800,2900);
+    Vroom(800,800,2600);
+    Vroom(0,800,2900);
+    Vroom(800,800,22000);
+    
     
     return 0;
 }//End int
