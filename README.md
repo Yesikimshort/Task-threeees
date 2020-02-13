@@ -37,7 +37,7 @@ int main()
     //Slapper(close on pole);
     Vroom(500,500,1000);
     Vroom(-500,-500,2000);
-    //Slapper(close harder until moves);
+    Slapper(1,1825);
     //Slapper(retract thing);
     
     Vroom(-100,-100,2000)
@@ -49,7 +49,7 @@ int main()
     //Slapper(close on pole);
     Vroom(500,500,1000);
     Vroom(-500,-500,2000);
-    //Slapper(close harder until moves);
+    Slapper(1,1825);
     //Slapper(retract thing);
     
     Vroom(-800,-800,3000);
@@ -58,6 +58,28 @@ int main()
     Vroom(0,800,2900);
     Vroom(800,800,22000);
     
+    cmpc(0);
+    while(gmpc(0)<2200)
+    {
+        Vroom(2000,0,0);
+        msleep(500);
+        Vroom(0,2000,0);
+        msleep(500);
+    }
+    printf("Task 2 over\n")
+    
+    //Task 3 commence
+    printf("Task number 3/n");
+    Vroom(-1000,-1000,2600);
+    Slapper(3,836);
+    Vroom(0,800,2900);
+    //Make sure to angle the robot exactly so it can push the objects effictevely, don't go too fast 
+    Vroom(500,500,5000);
+    Vroom(1000,1000,3000);
+    Vroom(0,800,2900);
+    Vroom(500,500,2500);
+    Vroom(800,0,2900);
+    Vroom(1000,1000,2500);
     
     return 0;
 }//End int
