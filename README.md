@@ -8,14 +8,16 @@ int main()
     printf("Hello World\n"); 
     
     printf("Task 2 commence\n");
-    Vroom(800,800,6400);
-    Vroom(-800,-800,5400);
-    Vroom(-800,0,2000);
-    Vroom(800,0,5000);
-	Vroom(-800,-800,1000);
-    Vroom(-800,0,1000);
-    Vroom(800,0,2900);
-	Vroom(800,800,2000);
+    Vroom(800,800,6900);
+    ao();
+    Vroom(800,0,1000);
+    Vroom(0,800,1000);
+    ao();
+	Vroom(-800,-800,3900);
+    Vroom(800,0,3000);
+    ao();
+    Vroom(0,800,2900);
+	Vroom(800,800,3000);
     
     cmpc(0);
 	while(gmpc(0)<2200)
