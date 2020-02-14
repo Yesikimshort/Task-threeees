@@ -8,7 +8,7 @@ int main()
     printf("Hello World\n"); 
     
     printf("Task 2 commence\n");
-    Vroom(800,800,5600);
+    Vroom(800,800,6400);
     Vroom(-800,-800,5400);
     Vroom(-800,0,2000);
     Vroom(800,0,5000);
